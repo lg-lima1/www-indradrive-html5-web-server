@@ -4,6 +4,9 @@
 <!DOCTYPE html>
 <html class="no-js" data-dc-app="">
   <head>
+    <!-- Remember to include -->
+    <!-- <base href="/tools/index.html" />  -->
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,11 +20,11 @@
     <meta http-equiv="cleartype" content="on" />
 
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="/img/favicons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
     <meta name="msapplication-TileColor" content="#603cba" />
     <meta
       name="msapplication-TileImage"
-      content="/img/favicons/mstile-144x144.png"
+      content="img/favicons/mstile-144x144.png"
     />
     <meta name="msapplication-config" content="browserconfig.xml" />
     <meta name="theme-color" content="#fafafa" />
@@ -167,9 +170,99 @@
         </div>
       </div>
 
+      <!-- Content header title -->
+      <div class="module-initiation">
+        <div class="container-fluid">
+          <h1>Bem vindo ao Web Server!</h1>
+        </div>
+        <div class="diagonal-line-wrapper">
+          <div class="diagonal-line"></div>
+        </div>
+      </div>
+
       <!-- Content -->
       <div class="page-wrapper background-gray">
-        <div class="container-fluid"></div>
+        <div class="container-fluid">
+          <p>
+            Algumas informações gerais sobre a utilização do
+            <strong>Web Server</strong> na linha IndraDrive.
+          </p>
+
+          <section class="module-text">
+            <h2>Introdução</h2>
+            <p>
+              Para a utilização do <strong>Web Server</strong> é obrigatório
+              considerar no conjunto um display <em>Advanced</em> com
+              <u>cartão microSD de até 2Gb</u>. A utilização do Web Server está
+              ligada a criação de páginas <em>HTML5</em> customizadas de acordo
+              com a necessidade da aplicação que necessitam ser descarregadas ao
+              Web Server através do IndraWorks. É possível realizar a
+              leitura/escrita de parâmetros do drive e, inclusive, de variáveis
+              presentes no MLD.
+            </p>
+
+            <h2>Funcionalidades</h2>
+            <ul>
+              <li>
+                Páginas customizadas integradas internamente no Web Server do
+                servo drive.
+              </li>
+              <li>
+                Comunicação com os parâmmetros e variáveis internas do servo
+                drive via biblioteca <em>ComLib.js</em>.
+              </li>
+              <li>
+                Parametrização, diagnóstico, update de firmware sem a
+                necessidade de nenhum hardware adicional.
+              </li>
+              <li>
+                Compatibilidade com documentos HTML5, CSS3 e Javascript.
+              </li>
+              <li>
+                Protocolo suportado: HTTP.
+              </li>
+            </ul>
+          </section>
+
+          <section class="module-teaser-grid off-grid module-block">
+            <div class="teaser-grid-header">
+              <h2>How To</h2>
+            </div>
+            <div class="teaser-grid-body">
+              <div class="module-teaser">
+                <div class="teaser-image col-lg-6 col-12">
+                  <div class="module-image">
+                    <!-- Insert image -->
+                    <img src="" alt="Image" srcset="img/logo.svg" />
+                  </div>
+                </div>
+                <div class="teaser-content col-lg-6 col-12">
+                  <div>
+                    <h2>Some text</h2>
+                    <p class="lead">Some info</p>
+                    <p>Another info</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="module-teaser reversed">
+                <div class="teaser-image col-lg-6 col-12">
+                  <div class="module-image">
+                    <!-- Insert image -->
+                    <img src="" alt="Image" srcset="img/logo.svg" />
+                  </div>
+                </div>
+                <div class="teaser-content col-lg-6 col-12">
+                  <div>
+                    <h2>Some text</h2>
+                    <p class="lead">Some info</p>
+                    <p>Another info</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
 
       <!-- Footer -->
