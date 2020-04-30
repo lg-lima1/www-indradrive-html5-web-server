@@ -1,0 +1,222 @@
+<!-- Author: Luiz Lima (DCBR/SPF1) -->
+<!-- Date: 30/04/2020 -->
+
+<!DOCTYPE html>
+<html class="no-js" data-dc-app="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      IndraDrive Web Server
+    </title>
+
+    <meta name="description" content="" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="cleartype" content="on" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="/img/favicons/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta
+      name="msapplication-TileImage"
+      content="/img/favicons/mstile-144x144.png"
+    />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="stylesheet" href="css/tippy.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/chart.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "name": "Markenname",
+        "legalName": "Markenname",
+        "url": "",
+        "logo": ""
+      }
+    </script>
+
+    <script>
+      var image = document.createElement('img')
+      if (!('sizes' in image) || !('srcset' in image)) {
+        ;(function (d, t, u) {
+          var r = d.getElementsByTagName(t)[0],
+            s = d.createElement(t)
+          s.src = u
+          r.parentNode.insertBefore(s, r)
+        })(document, 'script', 'js/vendor/respimage-1.4.2.min.js')
+      }
+    </script>
+
+    <!-- LazySizes Options -->
+    <script type="text/javascript">
+      window.lazySizesConfig = window.lazySizesConfig || {}
+      window.lazySizesConfig.throttleDelay = 67
+      window.lazySizesConfig.expand = 1000
+      window.lazySizesConfig.loadmode = 1
+    </script>
+
+    <script src="js/vendor/lazysizes.js" async="async"></script>
+  </head>
+
+  <body data-event-bubbling="">
+    <div class="page-edge">
+      <div
+        class="module-pi-header"
+        data-plugin="modulePiHeader"
+        data-event-bubbling-intercept="header.outsideClick"
+      >
+        <div class="module-button btn-navigation-wrapper">
+          <button type="button" class="btn btn-navigation"></button>
+          <div class="button-content">
+            <span class="upper-line"></span>
+            <span class="middle-line"></span>
+            <span class="bottom-line"></span>
+          </div>
+        </div>
+
+        <div class="header-logo">
+          <a class="logo" href="/">
+            <img src="img/logo-pi.svg" alt="Bosch Rexroth" />
+          </a>
+        </div>
+
+        <!-- Menu toggler based on page width -->
+        <span class="toggle-meta-nav"></span>
+
+        <!-- Desktop version -->
+        <div class="component-pi-meta-nav" data-plugin="componentPiMetaNav">
+          <ul>
+            <li>
+              <a href="pages/motion.html">
+                <i class="icon icon-dc_motion"></i>
+                Motion
+              </a>
+            </li>
+            <li>
+              <a href="pages/plc.html">
+                <i class="icon icon-dc_plc"></i>
+                PLC
+              </a>
+            </li>
+            <li>
+              <a href="pages/recipes.html">
+                <i class="icon icon-dc_book"></i>
+                Receitas
+              </a>
+            </li>
+            <li>
+              <a href="pages/alarms.html">
+                <i class="icon icon-dc_warning"></i>
+                Alarmes
+              </a>
+            </li>
+            <li>
+              <a href="pages/settings.html">
+                <i class="icon icon-dc_settings"></i>
+                Comfigurações
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile version -->
+        <div class="bottom-extensions">
+          <div
+            class="component-pi-meta-nav mobile"
+            data-plugin="componentPiMetaNav"
+          >
+            <ul>
+              <li>
+                <a href="pages/motion.html">
+                  <i class="icon icon-dc_motion"></i>
+                  Motion
+                </a>
+              </li>
+              <li>
+                <a href="pages/plc.html">
+                  <i class="icon icon-dc_plc"></i>
+                  PLC
+                </a>
+              </li>
+              <li>
+                <a href="pages/recipes.html">
+                  <i class="icon icon-dc_book"></i>
+                  Receitas
+                </a>
+              </li>
+              <li>
+                <a href="pages/alarms.html">
+                  <i class="icon icon-dc_warning"></i>
+                  Alarmes
+                </a>
+              </li>
+              <li>
+                <a href="pages/settings.html">
+                  <i class="icon icon-dc_settings"></i>
+                  Comfigurações
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="page-wrapper background-gray">
+        <div class="container-fluid"></div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="module-footer" data-plugin="moduleFooter">
+        <div class="diagonal-line-wrapper">
+          <div class="diagonal-line"></div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="footer-meta">
+            <div class="footer-copyright">
+              © Bosch Rexroth AG 2020
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap related -->
+    <div class="component-breakpoint">
+      <div
+        class="breakpoint breakpoint-xs d-block d-sm-none"
+        data-breakpoint="xs"
+      ></div>
+      <div
+        class="breakpoint breakpoint-sm d-none d-sm-block d-md-none"
+        data-breakpoint="sm"
+      ></div>
+      <div
+        class="breakpoint breakpoint-md d-none d-md-block d-lg-none"
+        data-breakpoint="md"
+      ></div>
+      <div
+        class="breakpoint breakpoint-lg d-none d-lg-block d-xl-none"
+        data-breakpoint="lg"
+      ></div>
+      <div
+        class="breakpoint breakpoint-xl d-none d-xl-block"
+        data-breakpoint="xl"
+      ></div>
+    </div>
+
+    <!-- Js Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/script.js"></script>
+
+    <!-- Communication with IndraDrive -->
+    <script src="js/vendor/ComLib.js"></script>
+  </body>
+</html>
